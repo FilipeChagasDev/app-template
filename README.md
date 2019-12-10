@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/badge/Version-v0.0.0-blue)
-![FirstReleaseYear](https://img.shields.io/badge/Last_release_year-2019-lightgray)
+![FirstReleaseYear](https://img.shields.io/badge/First_release_year-2019-lightgray)
 ![LastReleaseYear](https://img.shields.io/badge/Last_release_year-2019-lightgray)
 ![DevelopmentOS](https://img.shields.io/badge/Development_OS-Ubuntu-orange)
 ![Language](https://img.shields.io/badge/Language-C++-yellow)
