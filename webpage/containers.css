@@ -8,9 +8,8 @@ body
     margin:40px auto;
     color: #111111;
     font-size:18px;
-    padding:0 10px
-    font-family: Arial;
-
+    padding:0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .glass
@@ -43,9 +42,9 @@ body
     color: #EEEEEE;
     margin: 0;
     box-shadow: 0px 0px 5px  #0F0F0F;
-    opacity: 90%;
-    background-color: #0e0329;
+    background-color: rgba(14, 3, 41, 0.5);
     overflow: hidden;
+    backdrop-filter: blur(50px);
 }
 
 
@@ -53,11 +52,32 @@ body
 {
     margin: 10px;
     display: inline-block;
+    
 }
 
 h1,h2,h3,h4
 {
     line-height:1.6;
+}
+
+
+.download-box
+{
+    padding: 20px;
+}
+
+.abstract
+{
+    /*background-color: #31254b;*/
+    background-color: rgba(49, 37, 75, 0.7);
+    color: white;
+    margin: 60px;
+    font-size: 20px;
+    padding: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px  #0F0F0F;
+    backdrop-filter: blur(50px);
 }
 
 .section
@@ -76,18 +96,86 @@ h1,h2,h3,h4
 	border-width: 0;
 	border-radius: 5px;
 	color: white;
-	padding: 7px;
-	font-size: 16px;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 8px  #000000;
+}
+
+.black-button
+{
+	background-color: #161616;
+	border-width: 0;
+	border-radius: 5px;
+	color: white;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 8px  #000000;
+}
+
+.blue-button
+{
+	background-color: #0f0053;
+	border-width: 0;
+	border-radius: 5px;
+	color: white;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 8px  #000000;
+}
+
+.green-button
+{
+	background-color: #005c1c;
+	border-width: 0;
+	border-radius: 5px;
+	color: white;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 8px  #000000;
 }
 
 .purple-button:hover
 {
-	background-color: #756799;
+    background-color: #5b4c81;
+}
+
+.blue-button:hover
+{
+    background-color: #1f1164;
+}
+.green-button:hover
+{
+    background-color:  #116d2d;
+}
+
+.black-button:hover
+{
+    background-color:  #252525;
 }
 
 .purple-button:active
 {
-	background-color: #8678AA;
+	background-color: #6c5d92;
 }
 
+.blue-button:active
+{
+    background-color: #2f2275;
+}
+.green-button:active
+{
+    background-color:  #227e3e;
+}
 
+.black-button:active
+{
+    background-color:  #363636;
+}
